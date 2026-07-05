@@ -3,7 +3,7 @@ import os
 from pdf_reader import read_pdf
 from qa_engine import answer_question
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 document_text = ""
 
